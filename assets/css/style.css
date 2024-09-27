@@ -13,7 +13,6 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
 a {
   color: #5c9f24;
   text-decoration: none;
@@ -77,13 +76,13 @@ h6 {
 }
 
 #header .logo {
-  font-size: 28px;
   margin: 0;
   padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  box-shadow: 0 0 1px #00ff00, 
+              0 0 2px #00ff00, 
+              0 0 3px #00ff00, 
+              0 0 4px #00ff00; 
+  border-radius: 10px;
 }
 
 #header .logo a {
@@ -91,7 +90,28 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
+}
+@media screen and (max-width: 1024px) {
+  #header .logo img {
+    max-width: 120px; 
+  }
+
+  #header .logo img:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0 0 12px #00ff00, 0 0 25px #00ff00, 0 0 35px #00ff00;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #header .logo img {
+    max-width: 100px; /
+  }
+
+  #header .logo img:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  }
 }
 
 /*--------------------------------------------------------------
