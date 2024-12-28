@@ -6,6 +6,7 @@ Grow Your Business is a comprehensive platform designed to help businesses expan
 
 # Features
 
+
 ### Homepage
 - **Hero Section:** Engaging banner with clear call-to-action (CTA) buttons.
 - **Value Proposition:** Key benefits and features of the platform.
